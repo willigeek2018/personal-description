@@ -1,3 +1,95 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #5d535e;
+}
+
+section {
+    height: 400px;
+}
+
+.profile_details {
+    background-color: #9a9eab;
+    
+    width: 600px;
+    padding: 50px;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.profile_picture {
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.big_emphasis {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f1f3ce;
+    font-family: 'Bree Serif', serif;
+    line-height: 50px;
+}
+
+h2 {
+font-family: 'Roboto Mono', monospace;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul li a {
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    color: #fcfdfe;
+    
+}
+
+.btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.btn button {
+    flex-basis: 48%;
+    padding: 5px 0px;
+    border-radius: 5px;
+    background-color: #f0810f;
+    color: beige;
+    border: none;
+    margin: 15px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rabbit{
+    position: fixed;
+    top: 0;
+    left: 0;
 }
