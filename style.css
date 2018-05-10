@@ -81,15 +81,9 @@ ul li a {
     flex-basis: 48%;
     padding: 5px 0px;
     border-radius: 5px;
-    background-color: #f0810f;
+    background-color: forestgreen;
     color: beige;
     border: none;
     margin: 15px 0px;
     font-family: 'Roboto Mono', monospace;
-}
-
-.rabbit{
-    position: fixed;
-    top: 0;
-    left: 0;
 }
